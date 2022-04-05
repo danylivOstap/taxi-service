@@ -1,4 +1,5 @@
-**This is a simple Web application that supports authentication, registration, and uses mySQL DB.**
+**This is simple application made for educational and demonstration purposes. Implements authentication by filter based on session. Logs some Authentication information to console and .log file. Registration of new drivers, managing the relations between cars, drivers and manufacturers and other CRUD operations.
+Program has next functionalities:**
 
 **Functional:**
 - Display all Drivers
@@ -29,5 +30,9 @@
 2) Configure Apache Tomcat for your IDE.
 3) Use "/resources/init_db.sql" for creating a schema and tables.
 4) Configure "/util/ConnectionUtil.java" with your URL, USERNAME, PASSWORD, JDBC_DRIVER.
-5) Change the relative path: "/logs/app.log" in the "resources/log4j2.xml" file with an absolute path.
+5) Change the fileName value: "Absolute path needed" in the "resources/log4j2.xml" file with an absolute path to your log file.
 6) Configure the tomcat library path in the startup settings.«# taxi-service»
+
+
+**Data base structure:**
+![taxi-database-image](https://user-images.githubusercontent.com/95885042/161724081-5328fe9f-fa74-4652-9247-1800f1460b4b.png)
