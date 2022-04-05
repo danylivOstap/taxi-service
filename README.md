@@ -29,5 +29,5 @@
 2) Configure Apache Tomcat for your IDE.
 3) Use "/resources/init_db.sql" for creating a schema and tables.
 4) Configure "/util/ConnectionUtil.java" with your URL, USERNAME, PASSWORD, JDBC_DRIVER.
-5) Change the relative path: "/logs/app.log" in the "resources/log4j2.xml" file with an absolute path.
+5) Change the fileName value: "Absolute path needed" in the "resources/log4j2.xml" file with an absolute path to your log file.
 6) Configure the tomcat library path in the startup settings.«# taxi-service»
