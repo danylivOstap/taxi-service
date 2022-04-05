@@ -1,4 +1,5 @@
-**This is a simple Web application that supports authentication, registration, and uses mySQL DB.**
+**This is simple application made for educational and demonstration purposes. Implements authentication by filter based on session. Logs some Authentication information to console and .log file. Registration of new drivers, managing the relations between cars, drivers and manufacturers and other CRUD operations.
+Program has next functionalities:**
 
 **Functional:**
 - Display all Drivers
